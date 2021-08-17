@@ -1,0 +1,21 @@
+in app.js we used class components so that we can use react lifecycle method(or in 
+simple language in built functions of react) ,in functional components we 
+cannot use rreact  lifecycle methods
+
+in order to display anything we need to use render() which can only be used in  a class
+not in a functions
+
+
+function app(){
+    return(
+        <div>
+            <h1> hello bro </h1>
+        </div>
+    )
+}
+
+
+we have a div pokedex which is the outermost  div
+    inside pokedex we have two divs pokelist and pokesearch result
+            inside pokelist we have search box and 
+            pokecards which display images of pokemons
